@@ -1,16 +1,16 @@
 class Doraval < Formula
   desc "The context engineering toolkit for coding agents"
   homepage "https://github.com/saif-shines/doraval"
-  version "0.6.25"
+  version "0.6.26"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/saif-shines/doraval/releases/download/v#{version}/doraval-darwin-arm64"
-      sha256 "4846ea974906df807e6cd51f00a29b31ec72e3d23359864bb60d883a72063c66"
+      sha256 "a07d128367c0fc4ac395da74c6babc542a3454bf0f6b8520fb7603b06322aef6"
     else
       url "https://github.com/saif-shines/doraval/releases/download/v#{version}/doraval-darwin-x64"
-      sha256 "f1985d5a6c4baae10ca6db6d0d40f5d35cbbb6c036e43b0be40e454994114140"
+      sha256 "a0404f6f49b7c98e75e3256364de2ab0e23637a11bd4dffa85012fb5547d28f0"
     end
   end
 
